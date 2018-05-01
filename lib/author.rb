@@ -1,15 +1,15 @@
+require 'pry'
 class Author
   attr_accessor :title, :name
   @@post_count = 0
 
   def initialize(title)
     @title = title
-    @name = name
     @posts = []
   end
 
   def name
-    name
+    @name
   end
 
   def posts

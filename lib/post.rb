@@ -6,10 +6,6 @@ class Post
     @title = title
   end
 
-  def author(name)
-    @name = name
-  end
-
   def author_name
     self.author.name
     if author.name = nil

@@ -6,9 +6,13 @@ class Post
     @title = title
   end
 
+  def author(name)
+    @name = name
+  end
+
   def author_name
     binding.pry
     self.author.name
   end
-  
+
 end

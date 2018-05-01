@@ -10,6 +10,7 @@ class Author
 
   def name
     @name
+    binding.pry
   end
 
   def posts

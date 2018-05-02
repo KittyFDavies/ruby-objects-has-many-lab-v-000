@@ -3,7 +3,6 @@ class Post
   attr_accessor :name, :title, :author
 
   def initialize(title)
-    binding.pry
     @title = title
   end
 

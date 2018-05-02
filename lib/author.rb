@@ -8,11 +8,6 @@ class Author
     @posts = []
   end
 
-  def name(name)
-    @name = name
-    binding.pry
-  end
-
   def posts
     @posts
   end
